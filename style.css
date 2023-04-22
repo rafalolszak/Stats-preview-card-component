@@ -32,6 +32,7 @@ body{
     background-color: var(--VeryDarkBlue);
     width:100vw;
     min-height: 100vh;
+    
   
     
     
@@ -171,6 +172,8 @@ body{
         .card{
             width: 500px;
             flex-direction: column-reverse;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
             
         }
 
@@ -241,6 +244,8 @@ body{
 
     .card{
         width: 80%;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
         
         
         
