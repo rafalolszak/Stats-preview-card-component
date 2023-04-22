@@ -219,10 +219,10 @@ body{
 
 }
 
-@media screen and (max-width: 530px) {
+@media screen and (max-width: 540px) {
 
     html{
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .card{
