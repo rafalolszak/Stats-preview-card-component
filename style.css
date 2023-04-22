@@ -210,11 +210,23 @@ body{
 @media screen and (max-width: 630px) {
 
     html{
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .card{
-        width: 60%;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 530px) {
+
+    html{
+        font-size: 11px;
+    }
+
+    .card{
+        width: 70%;
     }
 
 }
