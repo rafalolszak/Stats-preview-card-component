@@ -165,7 +165,7 @@ body{
 @media screen and (max-width: 780px) {
 
         html{
-            font-size: 13px;
+            font-size: 12px;
         }
     
         .card{
@@ -239,7 +239,7 @@ body{
 
     .card{
         width: 80%;
-
+        
         
         
     }
