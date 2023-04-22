@@ -165,7 +165,7 @@ body{
 @media screen and (max-width: 780px) {
 
         html{
-            font-size: 11px;
+            font-size: 13px;
         }
     
         .card{
@@ -222,11 +222,11 @@ body{
 @media screen and (max-width: 415px) {
 
     html{
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .card{
-        width: 70%;
+        width: 80%;
 
         
         
@@ -235,16 +235,36 @@ body{
     .left{
         padding: 3rem;
     } 
-    
-    
+ 
 
     .left p{
         line-height: 2;
     }
 
-   
+    .left h2{
+        line-height: 0;
+    }
 
+    .left .stats{
+        margin-top: 1rem;
+    }
+
+}
+
+    @media screen and (max-width: 375px) {
+
+        html{
+            font-size: 9px;
+        }
     
+        .card{
+            width: 80%;
+    
+            
+            
+        } 
+    
+       
 
 }
 
