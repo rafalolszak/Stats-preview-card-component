@@ -114,6 +114,10 @@ body{
     border-bottom-right-radius: 10px;
 }
 
+.right .image-mobile{
+    display: none;
+}
+
 
 .right > img{
     
@@ -216,7 +220,14 @@ body{
         font-size: 11px;
     }
 
-    
+    .card .right .image-desktop{
+        display: none;
+    }
+
+    .card .right .image-mobile{
+        display: block;
+    }
+
 
     .card{
         width: 80%;
