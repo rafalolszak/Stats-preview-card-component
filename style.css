@@ -170,15 +170,24 @@ body{
 @media screen and (max-width: 780px) {
 
         html{
-            font-size: 12px;
+            font-size: 13px;
+        }
+        
+       
+        .card{
+            width: 600px;
+            flex-direction: column-reverse;
+          
+           
+            
+        }
+
+        .card .right .image-desktop{
+            display: none;
         }
     
-        .card{
-            width: 500px;
-            flex-direction: column-reverse;
-            margin-top: 4rem;
-            margin-bottom: 4rem;
-            
+        .card .right .image-mobile{
+            display: block;
         }
 
        .left{
@@ -217,46 +226,39 @@ body{
 @media screen and (max-width: 630px) {
 
     html{
-        font-size: 11px;
+        font-size: 14px;
     }
 
-    .card .right .image-desktop{
-        display: none;
-    }
-
-    .card .right .image-mobile{
-        display: block;
-    }
+    
 
 
     .card{
-        width: 80%;
+        width: 500px;
     }
 
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 580px) {
 
     html{
-        font-size: 9px;
+        font-size: 14px;
     }
 
     .card{
-        width: 70%;
+        width: 450px;
     }
 
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 560px) {
 
     html{
         font-size: 12px;
     }
 
     .card{
-        width: 80%;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        width: 430px;
+        
         
         
         
@@ -281,6 +283,23 @@ body{
 
 }
 
+@media screen and (max-width: 414px) {
+
+    html{
+        font-size: 10px;
+    }
+
+    .card{
+        width: 350px;
+
+        
+        
+    } 
+
+   
+
+}
+
     @media screen and (max-width: 375px) {
 
         html{
@@ -288,7 +307,7 @@ body{
         }
     
         .card{
-            width: 80%;
+            width: 300px;
     
             
             
